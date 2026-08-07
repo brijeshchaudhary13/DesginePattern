@@ -1,6 +1,6 @@
-# Design Patterns Master Course
 
-# Lesson 19 — Mediator Pattern (Behavioral Pattern)
+
+# Lesson 19 — Mediator Pattern 
 
 ---
 
@@ -1145,7 +1145,12 @@ This keeps:
 This separation is a common architecture in complex Qt applications.
 
 ---
+[⬅️ Iterator Pattern ](/IteratorPattern.md)        |  [Memento Pattern  ➡️](/MementoPattern.md) 
+---
+## **License**
+This project is licensed under the MIT License.
 
-## What You'll Learn Next
+---
 
-Type **`NEXT`** to continue with **Lesson 20: Memento Pattern**, where you'll learn how architects capture and restore object state safely. We'll also explore how **Memento + Command** powers professional Undo/Redo systems in applications like Photoshop, AutoCAD, Qt Creator, and Treatment Planning Systems.
+Happy Coding!
+
