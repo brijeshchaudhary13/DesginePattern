@@ -1,6 +1,6 @@
-# Design Patterns Master Course
 
-# Lesson 14 — Private Class Data Pattern (Structural Pattern)
+
+# Lesson 14 — Private Class Data Pattern 
 
 ---
 
@@ -922,5 +922,14 @@ A software architect thinks:
 
 This mindset is particularly important in **medical devices, banking, embedded systems, Qt libraries, and any long-lived C++ framework** where correctness, maintainability, and API stability matter.
 
+
+
+---
+[⬅️ Proxy Pattern ](/ProxyPattern.md)        |  [Chain of Responsibility Pattern ➡️](/ChainofResponsibilityPattern.md) 
+---
+## **License**
+This project is licensed under the MIT License.
+
 ---
 
+Happy Coding!
