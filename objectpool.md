@@ -1112,7 +1112,7 @@ Using connection 1
 
 ---
 
-[⬅️ Abstract Factory Pattern](/abstractfactory.md)        |  [Object Pool Pattern ➡️](/objectpool.md) 
+[⬅️ Prototype Pattern](/prototype.md)        |  [Adapter Pattern ➡️](/adapter.md) 
 ---
 ## **License**
 This project is licensed under the MIT License.
