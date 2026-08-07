@@ -1194,6 +1194,14 @@ So, you can **easily switch between Windows and Mac UI** without changing your m
 | Factory Method   | One type of object          | Car or Bike                |
 | Abstract Factory | Families of related objects | Windows or Mac UI elements |
 
+
+---
+[⬅️ Factory Method Pattern](/factorymethod.md)        |  [Builder Pattern ➡️](/builder.md) 
+---
+## **License**
+This project is licensed under the MIT License.
+
 ---
 
+Happy Coding!
 
