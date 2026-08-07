@@ -1,6 +1,6 @@
-# Design Patterns Master Course
 
-# Lesson 4 — Builder Pattern (Creational Pattern)
+
+# Lesson 4 — Builder Pattern 
 
 ---
 
@@ -1275,7 +1275,7 @@ This way, we can **easily create different types of objects** (like sports or SU
 | Builder          | Creates complex object step by step | SportsCar or SUVCar  |
 
 ---
-[⬅️ Factory Method Pattern](/factorymethod.md)        |  [Builder Pattern ➡️](/builder.md) 
+[⬅️ Abstract Factory Pattern](/abstractfactory.md)        |  [Object Pool Pattern ➡️](/objectpool.md) 
 ---
 ## **License**
 This project is licensed under the MIT License.
