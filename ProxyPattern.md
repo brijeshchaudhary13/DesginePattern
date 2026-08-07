@@ -1,6 +1,6 @@
-# Design Patterns Master Course
 
-# Lesson 13 — Proxy Pattern (Structural Pattern)
+
+# Lesson 13 — Proxy Pattern 
 
 ---
 
@@ -1104,8 +1104,14 @@ A software architect thinks:
 
 This way of thinking is fundamental in enterprise systems, cloud applications, PACS viewers, CAD software, and treatment planning systems where efficient and controlled resource access is critical.
 
+
+---
+[⬅️ Flyweight Pattern ](/FlyweightPattern.md)        |  [Private Class Data Pattern ➡️](/PrivateClassDataPattern.md) 
+---
+## **License**
+This project is licensed under the MIT License.
+
 ---
 
-## What You'll Learn Next
+Happy Coding!
 
-Type **`NEXT`** to continue with **Lesson 14: Private Class Data Pattern**, the final Structural Pattern. This pattern is especially useful in **medical device software, safety-critical systems, and secure APIs**, where protecting an object's internal state is a key architectural concern.
