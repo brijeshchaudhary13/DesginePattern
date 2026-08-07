@@ -1217,7 +1217,7 @@ This mindset produces software that is more flexible, extensible, and maintainab
 
 
 ---
-[⬅️ Decorator Pattern](/DecoratorPattern.md)        |  [Facade Pattern ➡️](/FacadePattern.md) 
+[⬅️ Composite Pattern](/CompositePattern.md)        |  [Facade Pattern ➡️](/FacadePattern.md) 
 ---
 ## **License**
 This project is licensed under the MIT License.
