@@ -1012,6 +1012,14 @@ So, if tomorrow you add a **Truck** class, you can just update the factory — n
 | Example      | VehicleFactory creating Car or Bike.                               |
 | Pattern Type | Creational Design Pattern                                          |
 
+
+---
+[⬅️ Singleton Pattern](/singleton.md)        |  [Abstract Factory Pattern ➡️](/abstractfactory.md) 
+---
+## **License**
+This project is licensed under the MIT License.
+
 ---
 
-Would you like me to continue with **Topic 5: Abstract Factory Pattern** next — explained in the same simple English + C++ code format?
+Happy Coding!
+
