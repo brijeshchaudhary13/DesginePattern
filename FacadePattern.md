@@ -1,6 +1,6 @@
-# Design Patterns Master Course
 
-# Lesson 11 — Facade Pattern (Structural Pattern)
+
+# Lesson 11 — Facade Pattern 
 
 ---
 
@@ -1143,7 +1143,12 @@ A software architect thinks:
 This mindset is fundamental in enterprise software, Qt desktop applications, CAD systems, and medical imaging platforms, where complex workflows should be presented through simple, stable APIs.
 
 ---
+[⬅️ Composite Pattern](/CompositePattern.md)        |  [Flyweight Pattern  ➡️](/FlyweightPattern.md ) 
+---
+## **License**
+This project is licensed under the MIT License.
 
-## What You'll Learn Next
+---
 
-Type **`NEXT`** to continue with **Lesson 12: Flyweight Pattern**, where you'll learn how architects dramatically reduce memory usage by sharing common object state in large-scale systems such as CAD software, game engines, and medical imaging applications.
+Happy Coding!
+
