@@ -1,6 +1,5 @@
-# Design Patterns Master Course
 
-# Lesson 8 — Bridge Pattern (Structural Pattern)
+# Lesson 8 — Bridge Pattern 
 
 ---
 
@@ -1250,4 +1249,17 @@ A software architect thinks:
 
 This mindset is essential for building scalable systems in CAD, graphics, Qt applications, and medical imaging software where both features and implementations evolve continuously.
 
-When you're ready, type **`NEXT`** to continue with **Lesson 9: Composite Pattern**.
+
+
+
+
+---
+[⬅️ Adapter Pattern](/adapter.md)        |  [Composite Pattern ➡️](/CompositePattern.md) 
+---
+## **License**
+This project is licensed under the MIT License.
+
+---
+
+Happy Coding!
+
