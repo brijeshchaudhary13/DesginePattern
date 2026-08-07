@@ -1187,8 +1187,13 @@ A software architect thinks:
 
 This mindset is fundamental in enterprise systems, middleware, Qt event processing, medical validation workflows, and large-scale request processing pipelines.
 
+
+---
+[⬅️ Private Class Data Pattern ](/PrivateClassDataPattern.md)        |  [Command Pattern ➡️](/CommandPattern.md) 
+---
+## **License**
+This project is licensed under the MIT License.
+
 ---
 
-## What You'll Learn Next
-
-Type **`NEXT`** to continue with **Lesson 16: Command Pattern**, one of the most important patterns for Qt applications, undo/redo systems, IDEs, CAD software, and Treatment Planning Systems. It is a cornerstone of applications like **Qt Creator**, **Visual Studio**, **Photoshop**, and **AutoCAD**.
+Happy Coding!
