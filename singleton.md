@@ -155,7 +155,7 @@ int main() {
 ## Singleton Pattern** in **C# (.NET)** 
 
 
-## 🧱 Basic (Naïve) Implementation
+## Basic (Naïve) Implementation
 
 ```csharp
 public sealed class Singleton
@@ -185,14 +185,14 @@ public sealed class Singleton
 }
 ```
 
-### ❌ Problems:
+###  Problems:
 
 * **Not thread-safe.** Two threads could create two instances simultaneously.
 * **No lazy initialization guarantees** in concurrent scenarios.
 
 ---
 
-## ⚙️ Thread-Safe Implementation (Locking)
+##  Thread-Safe Implementation (Locking)
 
 ```csharp
 public sealed class Singleton
@@ -217,18 +217,18 @@ public sealed class Singleton
 }
 ```
 
-### ✅ Pros:
+### Pros:
 
 * Thread-safe.
 * Simple and explicit.
 
-### ❌ Cons:
+###  Cons:
 
 * Locking every time can reduce performance.
 
 ---
 
-## ⚡ Double-Checked Locking
+##  Double-Checked Locking
 
 Improves performance by locking **only when necessary**.
 
@@ -258,18 +258,18 @@ public sealed class Singleton
 }
 ```
 
-### ✅ Pros:
+### Pros:
 
 * Thread-safe.
 * Avoids unnecessary locking after initialization.
 
-### ⚠️ Note:
+### Note:
 
 * Works correctly in .NET due to memory model guarantees (since .NET 2.0).
 
 ---
 
-## 🧵 Using `Lazy<T>` (Best Practice in Modern .NET)
+## Using `Lazy<T>` (Best Practice in Modern .NET)
 
 C#’s `Lazy<T>` provides **built-in thread-safety and lazy initialization**.
 
@@ -285,7 +285,7 @@ public sealed class Singleton
 }
 ```
 
-### ✅ Pros:
+###  Pros:
 
 * Thread-safe by default.
 * Lazy-loaded.
@@ -294,7 +294,7 @@ public sealed class Singleton
 
 ---
 
-## 🧰 Example Usage
+## Example Usage
 
 ```csharp
 class Program
@@ -314,7 +314,7 @@ Singleton instance is working...
 
 ---
 
-## 🧩 Real-World Use Cases
+## Real-World Use Cases
 
 | Use Case               | Example                                    |
 | ---------------------- | ------------------------------------------ |
@@ -326,7 +326,7 @@ Singleton instance is working...
 
 ---
 
-## 🧩 Singleton + Dependency Injection (Modern .NET Core)
+## Singleton + Dependency Injection (Modern .NET Core)
 
 In ASP.NET Core or .NET 8+, use **DI container** instead of manual singletons:
 
@@ -345,11 +345,11 @@ public class MyController
 }
 ```
 
-✅ **Better testability**, **lifecycle control**, and **cleaner design**.
+**Better testability**, **lifecycle control**, and **cleaner design**.
 
 ---
 
-## ⚖️ When *Not* to Use Singleton
+## When *Not* to Use Singleton
 
 Avoid if:
 
@@ -362,7 +362,7 @@ Avoid if:
 
 ## Singleton Pattern (Python version)
 
-## ⚙️ 1. Basic (Naïve) Singleton in Python
+## 1. Basic (Naïve) Singleton in Python
 
 ```python
 class Singleton:
@@ -384,18 +384,18 @@ s2 = Singleton()
 print(s1 is s2)  # True
 ```
 
-### ✅ Pros:
+### Pros:
 
 * Simple.
 * Works fine in single-threaded apps.
 
-### ❌ Cons:
+### Cons:
 
 * **Not thread-safe** (two threads could create two instances simultaneously).
 
 ---
 
-## 🧵 2. Thread-Safe Singleton (with Lock)
+##  2. Thread-Safe Singleton (with Lock)
 
 Using Python’s `threading` module.
 
@@ -415,14 +415,14 @@ class Singleton:
         return cls._instance
 ```
 
-### ✅ Pros:
+### Pros:
 
 * Thread-safe.
 * Lazy initialization.
 
 ---
 
-## 🧠 3. Singleton using a **Decorator**
+## 3. Singleton using a **Decorator**
 
 A **decorator** makes any class a Singleton automatically.
 
@@ -453,19 +453,19 @@ l2 = Logger()
 print(l1 is l2)  # True
 ```
 
-### ✅ Pros:
+###  Pros:
 
 * Clean syntax.
 * Reusable.
 * Easy to apply to multiple classes.
 
-### ❌ Cons:
+### Cons:
 
 * Doesn’t support inheritance easily.
 
 ---
 
-## 🧩 4. Singleton using a **Metaclass**
+##  4. Singleton using a **Metaclass**
 
 Metaclasses allow controlling **class creation**, making them powerful for patterns like Singleton.
 
@@ -492,18 +492,18 @@ db2 = DatabaseConnection()
 print(db1 is db2)  # True
 ```
 
-### ✅ Pros:
+### Pros:
 
 * Clean, extensible (works with inheritance).
 * Centralized control via the metaclass.
 
-### ❌ Cons:
+###  Cons:
 
 * Metaclasses can be confusing to beginners.
 
 ---
 
-## 🧱 5. Module-Level Singleton (Pythonic Way)
+##  5. Module-Level Singleton (Pythonic Way)
 
 In Python, **modules are singletons by default** — they’re imported once per interpreter session.
 
@@ -526,19 +526,19 @@ logger.log("App started")
 logger.log("Still the same instance")
 ```
 
-### ✅ Pros:
+###  Pros:
 
 * Simple.
 * Pythonic.
 * Automatically managed by the import system.
 
-### ❌ Cons:
+###  Cons:
 
 * Can’t easily subclass or reset instance.
 
 ---
 
-## 🧰 6. Using `__new__` with Inheritance Support
+## 6. Using `__new__` with Inheritance Support
 
 If you need subclasses with independent singleton behavior:
 
@@ -565,7 +565,7 @@ print(a1 is a2, b1 is b2, a1 is b1)  # True True False
 
 ---
 
-## 🧩 Real-World Example — Logging Service
+## Real-World Example — Logging Service
 
 ```python
 import threading
@@ -609,7 +609,7 @@ Creating new instance for Logger
 
 ---
 
-## ⚖️ When *Not* to Use Singleton in Python
+##  When *Not* to Use Singleton in Python
 
 Avoid Singletons when:
 
@@ -618,11 +618,12 @@ Avoid Singletons when:
 * Your codebase can use **dependency injection** (more testable and flexible).
 
 ---
+[⬅️ S.O.L.I.D Principles](/solid-principles.md)        |  [Factory Method Pattern ➡️](/factorymethod.md) 
 ---
-
 ## **License**
 This project is licensed under the MIT License.
 
 ---
 
 Happy Coding!
+
