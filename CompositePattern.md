@@ -1,6 +1,6 @@
-# Design Patterns Master Course
 
-# Lesson 9 — Composite Pattern (Structural Pattern)
+
+# Lesson 9 — Composite Pattern 
 
 ---
 
@@ -1301,8 +1301,15 @@ A software architect thinks:
 
 This mindset is fundamental in systems such as file explorers, CAD assemblies, scene graphs, DICOM hierarchies, Qt model/view trees, and treatment planning systems.
 
+
+
+---
+[⬅️ Bridge Pattern](/BridgePattern.md)        |  [Decorator Pattern ➡️](/DecoratorPattern.md) 
+---
+## **License**
+This project is licensed under the MIT License.
+
 ---
 
-## What You'll Learn Next
+Happy Coding!
 
-Type **`NEXT`** to continue with **Lesson 10: Decorator Pattern**, one of the most commonly used patterns in Qt, GUI frameworks, stream libraries, and enterprise software.
