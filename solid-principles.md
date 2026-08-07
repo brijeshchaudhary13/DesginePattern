@@ -1,7 +1,5 @@
 # **S.O.L.I.D Principles**
 
-## **Overview**
-
 The **S.O.L.I.D principles** are a set of five key guidelines for designing object-oriented software systems. These principles were:
 
 * **First introduced** by the renowned computer scientist **Robert C. Martin**, commonly known as *Uncle Bob*.
@@ -48,7 +46,7 @@ Every class should have a **single, well-defined responsibility**. This improves
 Think of a **remote control**: one button for volume, one for channel. If one button did *everything*, it would be confusing.
 
 
-### ❌ Bad Example
+### Bad Example
 
 ```cpp
 #include <iostream>
@@ -77,7 +75,7 @@ int main() {
 }
 ```
 
-➡️ The class `Report` is doing **two jobs**:
+The class `Report` is doing **two jobs**:
 
 * Generating a report
 * Saving it to a file
@@ -86,7 +84,7 @@ If file-saving logic changes, this class must also change — violating SRP.
 
 ---
 
-### ✅ Good Example (SRP Applied)
+### Good Example (SRP Applied)
 
 ```cpp
 #include <iostream>
@@ -122,7 +120,7 @@ int main() {
 
 ```
 
-➡️ Each class now has a **single responsibility**.
+Each class now has a **single responsibility**.
 
 ---
 
@@ -137,7 +135,7 @@ Systems should be designed so that new functionality can be **added without modi
 Imagine a **phone** where you can add new apps (extend) without opening the device (modifying it).
 
 
-### ❌ Bad Example
+### Bad Example
 
 ```cpp
 class AreaCalculator {
@@ -167,11 +165,11 @@ int main() {
 }
 ```
 
-➡️ If we add a new shape (circle, hexagon), we must **modify** this class — breaking OCP.
+If we add a new shape (circle, hexagon), we must **modify** this class — breaking OCP.
 
 ---
 
-### ✅ Good Example (OCP Applied)
+### Good Example (OCP Applied)
 
 ```cpp
 #include <iostream>
@@ -201,7 +199,7 @@ void printArea(Shape* s) {
 }
 ```
 
-➡️ To add a new shape (like Circle), you **extend** the code (create a new class) without modifying existing ones.
+ To add a new shape (like Circle), you **extend** the code (create a new class) without modifying existing ones.
 
 or
 ```cpp
@@ -271,7 +269,7 @@ int main() {
 If a **bird** can fly, any specific bird (e.g., sparrow) should also fly. But a **penguin** can’t fly — so it **shouldn’t be a subclass of flying birds**.
 
 
-### ❌ Bad Example
+### Bad Example
 
 ```cpp
 class Bird {
@@ -285,11 +283,11 @@ public:
 };
 ```
 
-➡️ `Penguin` violates LSP — it **can’t fly**, so substituting it for a `Bird` breaks the program logic.
+`Penguin` violates LSP — it **can’t fly**, so substituting it for a `Bird` breaks the program logic.
 
 ---
 
-### ✅ Good Example (LSP Applied)
+### Good Example (LSP Applied)
 
 ```cpp
 class Bird { public: virtual void eat() = 0; };
@@ -307,7 +305,7 @@ public:
 };
 ```
 
-➡️ Now, `Penguin` doesn’t break anything — it doesn’t belong to `FlyingBird`.
+Now, `Penguin` doesn’t break anything — it doesn’t belong to `FlyingBird`.
 
 ---
 
@@ -322,7 +320,7 @@ Favor **many small, specific interfaces** over one large, general-purpose interf
 Don’t make a **printer** class also handle scanning and faxing if it doesn’t need to.
 
 
-### ❌ Bad Example
+### Bad Example
 
 ```cpp
 class IWorker {
@@ -340,7 +338,7 @@ public:
 
 ---
 
-### ✅ Good Example (ISP Applied)
+### Good Example (ISP Applied)
 
 ```cpp
 class IWorkable { public: virtual void work() = 0; };
@@ -358,7 +356,7 @@ public:
 };
 ```
 
-➡️ Interfaces are now **segregated** — no unnecessary methods.
+Interfaces are now **segregated** — no unnecessary methods.
 
 ---
 
@@ -374,7 +372,7 @@ Code should depend on **interfaces or abstract classes**, not on concrete implem
 If you're making tea, you don't care which **brand of kettle** boils the water — just that it does the job.
 
 
-### ❌ Bad Example
+### Bad Example
 
 ```cpp
 class LightBulb {
@@ -389,12 +387,12 @@ public:
 };
 ```
 
-➡️ `Switch` is tightly coupled to `LightBulb`.
+ `Switch` is tightly coupled to `LightBulb`.
 If we add a `Fan`, we must modify the `Switch` class.
 
 ---
 
-### ✅ Good Example (DIP Applied)
+###  Good Example (DIP Applied)
 
 ```cpp
 #include <iostream>
@@ -433,7 +431,7 @@ int main() {
 }
 ```
 
-➡️ Now the `Switch` depends on the **abstract interface**, not a specific class — it can work with any `Device`.
+ Now the `Switch` depends on the **abstract interface**, not a specific class — it can work with any `Device`.
 
 ---
 
@@ -448,15 +446,14 @@ int main() {
 | **D**         | Dependency Inversion  | Depend on abstractions, not concrete classes  |
 
 ---
+[⬅️ Introduction to Design Patterns](/introduction.md)        |  [Singleton Pattern ➡️](/singleton.md) 
 ---
-
----
-
 ## **License**
 This project is licensed under the MIT License.
 
 ---
 
 Happy Coding!
+
 
 
