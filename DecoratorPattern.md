@@ -1,6 +1,6 @@
-# Design Patterns Master Course
 
-# Lesson 10 — Decorator Pattern (Structural Pattern)
+
+# Lesson 10 — Decorator Pattern 
 
 ---
 
@@ -1215,8 +1215,14 @@ A software architect thinks:
 
 This mindset produces software that is more flexible, extensible, and maintainable—especially in GUI frameworks, middleware, image-processing pipelines, and medical imaging applications.
 
+
+---
+[⬅️ Decorator Pattern](/DecoratorPattern.md)        |  [Facade Pattern ➡️](/FacadePattern.md) 
+---
+## **License**
+This project is licensed under the MIT License.
+
 ---
 
-## What You'll Learn Next
+Happy Coding!
 
-Type **`NEXT`** to continue with **Lesson 11: Facade Pattern**, where you'll learn how architects simplify complex subsystems behind a clean, easy-to-use interface.
