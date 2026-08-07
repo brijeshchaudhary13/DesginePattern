@@ -1,7 +1,6 @@
-# Design Patterns Master Course
 
-# Lesson 12 — Flyweight Pattern (Structural Pattern)
 
+# Lesson 12 — Flyweight Pattern 
 ---
 
 # Before We Start
@@ -1092,7 +1091,12 @@ A software architect thinks:
 This mindset is essential for high-performance systems such as CAD software, game engines, browsers, GIS platforms, and medical imaging applications that manage millions of objects efficiently.
 
 ---
+[⬅️ Facade Pattern](/FacadePattern.md)        |  [Proxy Pattern  ➡️](/ProxyPattern.md ) 
+---
+## **License**
+This project is licensed under the MIT License.
 
-## What You'll Learn Next
+---
 
-Type **`NEXT`** to continue with **Lesson 13: Proxy Pattern**, where you'll learn how architects control access to expensive, remote, protected, or lazily loaded objects without changing the client code.
+Happy Coding!
+
