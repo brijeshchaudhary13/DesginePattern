@@ -1,4 +1,3 @@
-# Design Patterns Master Course
 
 # Phase 2 – Structural Design Patterns
 
@@ -1478,3 +1477,15 @@ Stripe paid 150 USD
 
 Would you like me to extend this with a **real-world integrated example**,
 such as connecting a **modern REST payment API (C#)** and a **legacy SOAP service (Python)** using adapters to bridge both?
+
+
+---
+[⬅️ Object Pool Pattern](/objectpool.md)        |  [Bridge Pattern ➡️](/BridgePattern.md) 
+---
+## **License**
+This project is licensed under the MIT License.
+
+---
+
+Happy Coding!
+
