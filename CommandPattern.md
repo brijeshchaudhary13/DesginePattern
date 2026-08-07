@@ -1,6 +1,6 @@
-# Design Patterns Master Course
 
-# Lesson 16 — Command Pattern (Behavioral Pattern)
+
+# Lesson 16 — Command Pattern 
 
 ---
 
@@ -1182,7 +1182,12 @@ Together they provide a clean and scalable Undo/Redo architecture.
 This combination is used in applications like Photoshop, Qt Creator, AutoCAD, and many medical imaging systems.
 
 ---
+[⬅️ Chain of Responsibility Pattern ](/ChainofResponsibilityPattern.md)        |  [Interpreter Pattern ➡️](/InterpreterPattern.md) 
+---
+## **License**
+This project is licensed under the MIT License.
 
-## What You'll Learn Next
+---
 
-Type **`NEXT`** to continue with **Lesson 17: Interpreter Pattern**, where you'll learn how software executes domain-specific languages (DSLs), formulas, expressions, filters, and query languages. We'll also discuss why it's less common today and when architects choose alternatives.
+Happy Coding!
+
