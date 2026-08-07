@@ -1,6 +1,6 @@
-# Design Patterns Master Course
 
-# Lesson 17 — Interpreter Pattern (Behavioral Pattern)
+
+# Lesson 17 — Interpreter Pattern 
 
 ---
 
@@ -1079,8 +1079,13 @@ Text Expression
 
 This layered architecture is used in many rule engines, spreadsheet formula evaluators, search filters, and domain-specific languages.
 
+
+---
+[⬅️ Command Pattern ](/CommandPattern.md)        |  [Iterator Pattern  ➡️](/IteratorPattern.md) 
+---
+## **License**
+This project is licensed under the MIT License.
+
 ---
 
-## What You'll Learn Next
-
-Type **`NEXT`** to continue with **Lesson 18: Iterator Pattern**, one of the most practical patterns in C++, STL, Qt's Model/View framework, database cursors, scene graphs, and medical imaging applications.
+Happy Coding!
