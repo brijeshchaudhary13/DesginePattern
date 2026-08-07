@@ -1,6 +1,6 @@
-# Design Patterns Master Course
 
-# Lesson 6 — Object Pool Pattern (Creational Pattern)
+
+# Lesson 6 — Object Pool Pattern 
 
 ---
 
@@ -1112,6 +1112,12 @@ Using connection 1
 
 ---
 
-If you want, I can **continue next with Topic 9: Flyweight Pattern** in the same **easy English + C++ code style**.
+[⬅️ Abstract Factory Pattern](/abstractfactory.md)        |  [Object Pool Pattern ➡️](/objectpool.md) 
+---
+## **License**
+This project is licensed under the MIT License.
 
-Do you want me to do that?
+---
+
+Happy Coding!
+
