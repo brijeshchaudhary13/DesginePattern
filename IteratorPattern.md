@@ -1,6 +1,6 @@
-# Design Patterns Master Course
 
-# Lesson 18 — Iterator Pattern (Behavioral Pattern)
+
+# Lesson 18 — Iterator Pattern
 
 ---
 
@@ -1120,8 +1120,15 @@ The responsibilities remain clean:
 
 This separation is a hallmark of well-designed object-oriented architectures.
 
+
+
+---
+[⬅️ Interpreter Pattern ](/InterpreterPattern.md)        |  [Mediator Pattern  ➡️](/MediatorPattern.md) 
+---
+## **License**
+This project is licensed under the MIT License.
+
 ---
 
-## What You'll Learn Next
+Happy Coding!
 
-Type **`NEXT`** to continue with **Lesson 19: Mediator Pattern**, where you'll learn how to eliminate the "spaghetti communication" that occurs when many objects talk directly to one another. This pattern is heavily used in GUI frameworks, dialogs, workflow engines, air traffic control systems, and complex medical device UIs.
