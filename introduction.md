@@ -1,6 +1,6 @@
-# 🧩 **1. Introduction to Design Patterns**
+# **1. Introduction to Design Patterns**
 
-## 📘 **Overview**
+## **Overview**
 
 **Design Patterns** are **standard solutions** to common software design problems.
 They are **not complete programs** — instead, they are **reusable templates** that help you solve recurring design issues in an efficient and maintainable way.
@@ -9,7 +9,7 @@ You can think of them as **blueprints** for how to structure your code.
 
 ---
 
-## 💡 **What Are Design Patterns?**
+## **What Are Design Patterns?**
 
 When you build large software systems, you often face similar problems:
 
@@ -21,7 +21,7 @@ Instead of reinventing the wheel every time, developers use **Design Patterns** 
 
 ---
 
-## 🎯 **Why Are Design Patterns Important?**
+## **Why Are Design Patterns Important?**
 
 | **Benefit**         | **Explanation**                                                             |
 | ------------------- | --------------------------------------------------------------------------- |
@@ -33,7 +33,7 @@ Instead of reinventing the wheel every time, developers use **Design Patterns** 
 
 ---
 
-## 🧱 **Classification of Design Patterns**
+## **Classification of Design Patterns**
 
 Design patterns are generally divided into **three main categories**:
 
@@ -45,7 +45,7 @@ Design patterns are generally divided into **three main categories**:
 
 ---
 
-## ⚙️ **Simple C++ Example (Without a Pattern)**
+## **Simple C++ Example (Without a Pattern)**
 
 Suppose you are writing a program to connect to a **database**:
 
@@ -66,12 +66,12 @@ int main() {
 }
 ```
 
-👉 Problem:
+Problem:
 Every time you create an object (`db1`, `db2`), a **new database connection** is made — this wastes resources.
 
 ---
 
-## ✅ **Using a Design Pattern (Singleton Pattern Example)**
+##  **Using a Design Pattern (Singleton Pattern Example)**
 
 Now, let’s use a **design pattern** to fix this issue.
 
@@ -111,14 +111,14 @@ int main() {
 }
 ```
 
-### 🧠 Output:
+### Output:
 
 ```
 Database connected!
 Both objects point to the same instance!
 ```
 
-👉 This means **only one database connection** is created — that’s the **power of design patterns**.
+ This means **only one database connection** is created — that’s the **power of design patterns**.
 
 ---
 
@@ -132,6 +132,11 @@ Both objects point to the same instance!
 | **Example**    | Singleton Pattern ensures only one instance of a class.                    |
 
 ---
+[S.O.L.I.D Principles ➡️](/solid-principles.md) 
+---
+## **License**
+This project is licensed under the MIT License.
 
-Would you like me to continue with
-**Topic 2: SOLID Principles** (next in the index) — explained in simple English with C++ examples too?
+---
+
+Happy Coding!
