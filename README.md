@@ -51,10 +51,10 @@ Behavioral patterns focus on **communication between objects**, making it easier
 | **17**     | [Chain of Responsibility Pattern](/designpatterns/chainofresponsibility.md) | Passes a request along a chain of handlers until one handles it.                                               |
 | **18**     | [Command Pattern](/designpatterns/command.md)                               | Encapsulates requests as objects, enabling parameterization, queuing, and undo operations.                     |
 | **19**     | [Interpreter Pattern](/designpatterns/interpreter.md)                       | Defines a grammar and an interpreter to process language sentences.                                            |
-| **20**     | [Iterator Pattern](/designpatterns/iterator.md)                             | Provides a way to sequentially access elements of an aggregate object without exposing its representation.     |
-| **21**     | [Mediator Pattern](/designpatterns/mediator.md)                             | Defines an object that encapsulates how a set of objects interact, promoting loose coupling.                   |
-| **22**     | [Memento Pattern](/designpatterns/memento.md)                               | Captures and restores an object's internal state without violating encapsulation.                              |
-| **23**     | [Observer Pattern](/designpatterns/observer.md)                             | Establishes a one-to-many dependency between objects; when one changes, dependents are notified automatically. |
+| **20**     | [Iterator Pattern](/IteratorPattern.md)                             | Provides a way to sequentially access elements of an aggregate object without exposing its representation.     |
+| **21**     | [Mediator Pattern](/MediatorPattern.md)                             | Defines an object that encapsulates how a set of objects interact, promoting loose coupling.                   |
+| **22**     | [Memento Pattern](/MementoPattern.md)                               | Captures and restores an object's internal state without violating encapsulation.                              |
+| **23**     | [Observer Pattern](/ObserverPattern.md)                             | Establishes a one-to-many dependency between objects; when one changes, dependents are notified automatically. |
 | **24**     | [State Pattern](/designpatterns/state.md)                                   | Allows an object to change its behavior dynamically when its internal state changes.                           |
 | **25**     | [Strategy Pattern](/designpatterns/strategy.md)                             | Defines a family of algorithms and makes them interchangeable at runtime.                                      |
 | **26**     | [Template Method Pattern](/designpatterns/templatemethod.md)                | Defines the program skeleton in a base class but lets subclasses override certain steps.                       |
